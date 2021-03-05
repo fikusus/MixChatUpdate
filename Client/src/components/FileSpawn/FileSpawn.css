@@ -1,0 +1,32 @@
+.innerFileContainer {
+  bottom: 10%;
+  right: 0;
+  padding-right: 10px;
+}
+
+.fileName {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+}
+
+.fileMark {
+  font-size: 1.1em;
+  padding: 0 0.3em;
+}
+
+.form-group {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+
+.loading_image{
+  height: 16px;
+  margin-top: 8px;
+    margin-left: 3px;
+}
+
+

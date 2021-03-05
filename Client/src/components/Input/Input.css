@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 20px 20px 5px 20px ;
+  width: 100%;
+  font-size: 1.0em;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.keyHande{
+  width: 80%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+
+.sendButton{
+  margin: auto 20px auto 10px;
+  width: 36px;
+}
+
+
+.paperClipButton{
+  width: 36px;
+  margin: auto 10px auto auto;
+}

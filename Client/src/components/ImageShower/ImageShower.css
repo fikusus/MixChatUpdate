@@ -1,0 +1,22 @@
+.fileIcon {
+  margin-right: 10px;
+}
+.imageBox {
+  max-width: 60%;
+  padding: 5px;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
+
+.imagePreview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 100%;
+}
+a {
+  height: 0px;
+}

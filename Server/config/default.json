@@ -1,0 +1,8 @@
+{
+  "databaseUrlLOCAL":"mongodb://localhost:27017/",
+  "onesLoadedMessage":30,
+  "blobStorageAccountName":"mixsumduchart",
+  "blobStorageContainer":"chat",
+  "SAS_token":"?sv=2020-02-10&ss=b&srt=co&sp=rwac&se=2022-03-05T21:37:27Z&st=2021-03-05T13:37:27Z&spr=https&sig=zpuRRlH1mJ56AnlSoZ7hukrmexEGFv36aBVBNX1ViIo%3D"
+
+}

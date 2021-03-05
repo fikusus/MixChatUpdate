@@ -1,0 +1,103 @@
+
+.messageBox {
+  background: #f3f3f3;
+  border-radius: 15px;
+  padding: 5px 10px;
+  /* color: white; */
+  display: inline-block;
+  max-width: 80%;
+  margin-bottom:3px;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1em;
+  word-wrap: break-word;
+  padding: 5px;
+  margin: 0px;
+}
+
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 3%;
+}
+
+.sentText {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #388e3c;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  margin:5px ;
+  margin-bottom: 0px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #388e3c;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
+
+
+.date {
+  padding: 5px;
+}
+
+
+.timeText{
+  margin: 0px;
+  text-align: right;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.protest{
+  text-align: left;
+
+}
+
+.lightBlueLink{
+ color: #0000FF;
+ text-decoration: none
+}
+
+.lightBlueLink:hover{
+  text-decoration: underline;
+ }

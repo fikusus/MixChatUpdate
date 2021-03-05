@@ -1,0 +1,26 @@
+.messages {
+  overflow: hidden;
+  flex: auto;
+}
+
+.loadOldMessageBtn{
+  height: 30px;
+  border: 0px;
+  margin: 0 auto;
+  margin-top: 17px;
+  width: 95%;
+  background-color: lightgrey;
+  align-items:center;
+  justify-content:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor:pointer ;
+}
+.loadOldMessageBtn:hover{
+  background-color: #B2BABB;
+}
+.loadOldMessageBtn:active{
+  background-color: #99A3A4;
+}
