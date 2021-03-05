@@ -99,8 +99,8 @@ mongoClient.connect(
 
 
   const app = express();
-  //var server = glx.httpsServer();
-  let server = http.createServer(app);
+  var server = glx.httpsServer();
+  //let server = http.createServer(app);
   const io = socketio(server);
  // app.use(cors);
   app.use(router);
@@ -108,7 +108,7 @@ mongoClient.connect(
   app.use(bodyParser.json());
   app.use("/files", express.static("public"));
   glx.serveApp(app);
-  server.listen(5000);
+  //server.listen(5000);
   /*
     Обработка событий socket.io
   */
